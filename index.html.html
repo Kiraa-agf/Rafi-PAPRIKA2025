@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAPRIKA 2025</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: url('https://i.imgur.com/5qHgFmL.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      background-position: center center;
+      padding: 0 20px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .button {
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      background-color: #65552c;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .button:hover {
+      background-color: #7a6635;
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        background: url('https://i.imgur.com/WvDeYUx.jpeg') no-repeat center center;
+        background-size: cover;
+        background-attachment: scroll;
+        padding-top: 20px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        margin-top: -20px; /* Naikin posisi judul */
+      }
+
+      .button {
+        width: 80%;
+        font-size: 1rem;
+        padding: 12px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Pendaftaran Lomba PAPRIKA</h1>
+
+  <div class="button-container">
+    <a class="button" href="https://forms.gle/gqPHuWFzGwz2mm8E8" target="_blank">Lomba Pidato</a>
+    <a class="button" href="https://forms.gle/DpssSLoCmj4ercAf6" target="_blank">Lomba Putri SMANAVA</a>
+  </div>
+
+</body>
+</html>
